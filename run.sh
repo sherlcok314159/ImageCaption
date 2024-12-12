@@ -1,0 +1,11 @@
+python main.py \
+    --mapping_type mlp \
+    --project_name cs6051-clip-image-captioning \
+    --run_name clip-mlp-gpt2 \
+    --llm_model gpt2 \
+    --clip_model ViT-B/32 \
+    --wandb_key your_wandb_key \
+    --epochs 10 \
+    --lr 2e-5 \
+    --warmup_ratio 0.1 \
+    --batch_size 32

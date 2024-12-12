@@ -1,0 +1,6 @@
+data/
+hf_coco_cn/
+output/
+wandb/
+demo.py
+test.py
